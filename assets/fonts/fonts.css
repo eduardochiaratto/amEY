@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'EYInterstate Light';
+    src: url('EYInterstate-Light.woff');
+}
+@font-face {
+    font-family: 'EYInterstate';
+    src: url('EYInterstate-Regular.woff');
+}
+
+@font-face {
+    font-family: 'EYInterstate Bold';
+    src: url('EYInterstate-Bold.woff');
+}

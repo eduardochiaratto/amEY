@@ -1,0 +1,75 @@
+.team {
+    padding: 20px;
+    background-color: var(--gray-extra-light);
+    margin-top: 20px;
+}
+
+.team:hover {
+    background-color: var(--gray-light);
+    transition: 0.25s ease;
+}
+
+.team .team-header .team-gallery {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-light);
+}
+
+.team .team-header .team-gallery {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-light);
+}
+
+.team .team-header .team-gallery img {
+    width: 28px;
+    height: 28px;
+    border: 1px solid var(--yellow);
+    margin-right: 5px;
+}
+
+.team .team-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team .divisor {
+    display: block;
+    margin: 20px 0 15px 0;
+    width: 20px;
+    height: 2px;
+    background-color: #747480;
+}
+
+.team .team-body small {
+    display: inline-block;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-family: 'EYInterstate Light';
+    color: var(--text);
+}
+
+.team .team-body h6 {
+    font-size: 20px;
+    color: var(--text);
+}
+
+.team .team-body .arrow {
+    display: block;
+    position: relative;
+    right: 0;
+    width: 36px;
+    height: 24px;
+    background-image: url('../../assets/img/icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: right 0.3s;
+    transition: right 0.3s;
+}
+
+.team:hover .team-body .arrow {
+    right: -10px;
+}
